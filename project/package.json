@@ -1,8 +1,8 @@
 {
-  "name": "node-starter",
+  "name": "twitter-analyst",
   "version": "1.0.0",
-  "description": "Getting started with Node.js",
-  "main": "server.js",
+  "description": "Analyze twitter feeds",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
