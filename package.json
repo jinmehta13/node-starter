@@ -1,0 +1,22 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "Getting started with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinmehta13/node-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinmehta13/node-starter/issues"
+  },
+  "homepage": "https://github.com/jinmehta13/node-starter#readme",
+  "dependencies": {
+    "moment": "^2.17.0"
+  }
+}
