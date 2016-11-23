@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jinmehta13/node-starter#readme",
   "dependencies": {
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
     "lokijs": "^1.4.1",
     "moment": "^2.17.0",

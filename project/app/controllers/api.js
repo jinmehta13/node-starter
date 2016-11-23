@@ -1,5 +1,5 @@
-var db = require('../util/db');
-var client = require('../util/twitter');
+var db = require('../../util/db');
+var client = require('../../util/twitter');
 
 exports.results = function(req, res) {
 	var query = req.query.q;
