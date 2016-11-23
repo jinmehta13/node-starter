@@ -11,6 +11,9 @@ app.set('views', __dirname + '/../public/views');
 //middleware to define path to public directory
 app.use(express.static(__dirname + '/../public'));
 
+//import database
+require('./database.js')
+
 //import routes
 require('./routes.js')(app);
 
