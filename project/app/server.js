@@ -1,5 +1,6 @@
 //dependencies
 var express = require('express');
+require('dotenv').load();
 
 //create an express instance
 var app = express();
