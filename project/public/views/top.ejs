@@ -15,13 +15,13 @@
 
 			<% terms.forEach(function(query, index) { %>
 				<div class="col-sm-6 panel">
-					<a class="btn btn-block btn-<%=query.style%> btn-lg"> href="/results?q=<%=query.term %>">
-						<%= qery.term %>
+					<a class="btn btn-block btn-<%=query.style%> btn-lg" href="/results?q=<%=query.term %>">
+						<%= query.term %>
 					</a>
 				</div>
 			<% }) %>
 
-
+		</div>
 		<footer>
 			<% include ./partials/footer %>
 		</footer>
