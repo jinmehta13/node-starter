@@ -9,6 +9,8 @@ $(document).ready(function(){
       success : function(data){
         $('#term').empty().append(query);
         
+        $('strong').empty().append(query);
+        
         $('#timeline').empty();
 
         var tweets = data.statuses;
